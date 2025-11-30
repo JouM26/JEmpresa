@@ -1,0 +1,30 @@
+[project]
+name = "JEmpressa"
+version = "1.0.0"
+description = "Sistema ERP para gestión empresarial multi-empresa"
+authors = [{name = "JEmpresa Team"}]
+
+[tool.flet]
+# Configuración de la aplicación
+app_name = "JEmpressa"
+app_short_name = "JEmpressa"
+app_description = "Gestiona inventario y contabilidad de múltiples empresas"
+
+# Iconos y assets
+icon = "assets/icon.png"
+
+# Permisos para Android
+android_permissions = [
+    "WRITE_EXTERNAL_STORAGE",
+    "READ_EXTERNAL_STORAGE"
+]
+
+# Configuración de versión
+build_number = 1
+build_version = "1.0.0"
+
+# Orientación
+orientation = "portrait"
+
+# Color del tema
+splash_color = "#1976D2"
